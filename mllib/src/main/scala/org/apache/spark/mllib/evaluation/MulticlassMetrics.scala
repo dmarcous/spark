@@ -119,7 +119,7 @@ class MulticlassMetrics @Since("1.1.0") (predictionAndLabels: RDD[(Double, Doubl
    * Returns specificity for a given label (category)
    * @param label the label.
    */
-  def specificity(label: Double): Double = 1.0 - falsePositiveRate(label) 
+  def specificity(label: Double): Double = 1.0 - falsePositiveRate(label)
 
   /**
    * Returns f-measure for a given label (category)
